@@ -1,0 +1,33 @@
+.menu {
+  border-bottom: 1px solid rgb(210, 210, 210);
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+  .item {
+    border: none;
+    border-radius: 0;
+    color: #727272;
+    padding: 8px 20px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: transparent;
+    }
+
+    &:focus {
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+
+    &.active {
+      border-bottom: 2px solid #2589f4 !important;
+      color: #2589f4;
+      font-weight: 600;
+      margin-bottom: -1px;
+      outline: none;
+    }
+  }
+
+}
